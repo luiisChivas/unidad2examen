@@ -1,0 +1,6 @@
+examen_modulo.py
+setup.py
+examen_modulo.egg-info/PKG-INFO
+examen_modulo.egg-info/SOURCES.txt
+examen_modulo.egg-info/dependency_links.txt
+examen_modulo.egg-info/top_level.txt

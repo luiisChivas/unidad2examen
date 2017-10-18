@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block body%}
+    <h2>{{the_tittle}}</h2>
+<p>The values in the ecuation: </p>
+<table>
+    <tr>
+        <td>L:</td>
+        <td>{{the_l}}</td>
+    </tr>
+    <tr>
+        <td>M:</td>
+        <td>{{the_m}}</td>
+    </tr>
+     <tr>
+        <td>T:</td>
+        <td>{{the_t}}</td>
+    </tr>
+    <tr>
+        <td colspan="2"> Trabajo = L * M * T **-2</td>
+    </tr>
+    <tr>
+        <td>Trabajo:</td>
+        <td>{{the_result}}</td>
+    </tr>
+    <tr>
+        <td colspan="2"><a href="entry">Return</a></td>
+    </tr>
+</table>
+{% endblock%}

@@ -1,0 +1,23 @@
+{% extends 'base.html'%}
+{% block body %}
+    <h2>{{ the_title }}</h2>
+    <form method="POST" action="/fuerza">
+        <table>
+            <p>Usa este formulario para insertar los datos </p>
+            <tr>
+                <td>L</td>
+                <td><input type="number" name="L" step="any"/></td>
+            </tr>
+            <tr>
+                <td>M:</td>
+                <td><input type="number" name="M" step="any"/></td>
+            </tr>
+            <tr>
+                <td>T</td>
+                <td><input type="number" name="T" step="any" /></td>
+            </tr>
+          </table>
+              <p>Calcular la operación</p>
+              <p><input type="submit" value="Calcular" value="Calcular" /></p>
+    </form>
+{% endblock%}
